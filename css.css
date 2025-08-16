@@ -1,0 +1,38 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+h1 {
+    font-size: 140%;
+    text-align: center;
+}
+h2 {
+    font-size: 120%;
+}
+#TOC {
+    border: solid silver 1px;
+    padding: 10px;
+}
+.TOCEntry a {
+    text-decoration: inherit;
+    color: inherit;
+}
+.TOCLevel1 {
+    font-size: 105%;
+    font-weight: bold;
+}
+.TOCLevel2 {
+    font-size: 100%;
+}
+.TOCLevel3 {
+    font-size: 95%;
+}
+.TOCLevel4 {
+    font-size: 90%;
+}
+.TOCLevel6 {
+    font-size: 85%;
+}
+.TOCSectNum:after {
+    content: ". ";
+}
